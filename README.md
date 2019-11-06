@@ -157,6 +157,25 @@ Than fetch the stubs by running
 Now start over with the step [installation](#installation)
 
 
+## Installation Error
+
+If you get the error
+
+    - felixfbecker/language-server v4.1.1 requires jetbrains/phpstorm-stubs dev-master -> no matching package found.
+    
+You need to fetch first the phpstorm-stubs. 
+Make sure that your composer.json contains 
+    
+    "minimum-stability":"dev"
+    
+Than fetch the stubs by running
+
+    composer require jetbrains/phpstorm-stubs
+    
+Now start over with the step [installation](#installation)
+
+
+    
 ## Running
 
 Start the language server with
